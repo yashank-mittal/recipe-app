@@ -38,7 +38,7 @@ export default function App() {
   return (
     <div className="App">
         <form onSubmit={getSearch} className="search-form">
-            <input className="search-bar" type="text" value={search} onChange={updatesearch} />
+            <input className="search-bar" placeholder="Enter your Receipe's Name here" type="text" value={search} onChange={updatesearch} />
             <button className="search-button" type="submit">Search</button>
         </form>
         <div className="recepies">
